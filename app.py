@@ -5,6 +5,11 @@ app = Flask(__name__)
 
 # Fetch the data once and store it in memory
 data = fetch_table_data()
+@app.route('/')
+def index():
+    return "To use this api call /api/data?ps_number='sih_ps_number'"
+
+
 
 @app.route('/api/data', methods=['GET'])
 def get_data():
