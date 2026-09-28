@@ -8,7 +8,7 @@ import json
 warnings.filterwarnings('ignore', message='Unverified HTTPS request')
 
 def fetch_table_data():
-    url = "https://sih.gov.in/sih2024PS"
+    url = "https://sih.gov.in/sih2026PS"
     USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:65.0) Gecko/20100101 Firefox/65.0"
     
     headers = {"user-agent": USER_AGENT}
